@@ -24,25 +24,32 @@ Você terá liberdade para pesquisar e escolher as tecnologias e abordagens que 
 
 A aplicação deverá contemplar os seguintes pontos:
 
-### 3.1. Identificação dos objetos
+### 3.1 Parâmetros de entrada
+
+O código deve possuir, pelo menos, os seguintes parâmetros de entrada:
+ - O caminho (path) para o vídeo a ser processado.
+
+No caminho [./input/sample.mp4](./input/sample.mp4) desse repositório há um vídeo para ser usado como nos processamentos.
+
+### 3.2. Identificação dos objetos
 
 - Identificar a mochila presente no vídeo.
 - Identificar as pessoas presentes na cena.
 - Apresentar visualmente os objetos identificados, utilizando retângulos (bounding boxes), por exemplo.
 
-### 3.2. Acompanhamento dos objetos
+### 3.3. Acompanhamento dos objetos
 
 - Acompanhar a posição da mochila ao longo do vídeo.
 - Acompanhar o movimento das pessoas.
 - Tentar identificar quando a pessoa deixa a mochila e se afasta.
 
-### 3.3. Identificação de abandono
+### 3.4. Identificação de abandono
 
 - Identificar quando a mochila permanece parada em determinado local.
 - Considerar a distância entre a mochila e as pessoas (opcional).
 - Utilizar algum critério temporal para determinar quando a mochila pode ser considerada abandonada.
 
-### 3.4. Informações visuais
+### 3.5. Informações visuais
 
 O vídeo gerado deverá apresentar informações que permitam compreender o funcionamento da aplicação, como:
 
@@ -154,3 +161,5 @@ O objetivo deste desafio é proporcionar uma oportunidade para explorar um probl
 Não esperamos que você conheça previamente todas as tecnologias necessárias ou que desenvolva soluções perfeitas.
 
 Valorizamos principalmente sua curiosidade, capacidade de aprender, iniciativa para pesquisar, organização e habilidade para transformar um problema em soluções funcionais, avaliando criticamente os resultados obtidos.
+
+Quaisquer dúvidas entrar em contato através dos e-mails jose.sapienza@mettainnovations.com.br e rafaelsm@mettainnovations.com.br.
